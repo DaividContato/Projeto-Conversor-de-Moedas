@@ -10,26 +10,28 @@
 
 body {
   background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
 }
 
 .container {
   width: 375px;
   background-color: #f4f4f4;
-  margin: 0 auto;
-  margin-top: 100px;
 }
 
 header {
   background-color: #1b83e2;
   height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-  font-family: "Roboto";
   font-size: 24px;
   color: #f4f4f4;
-  text-align: center;
-  padding-top: 24px;
 }
 
 main {
@@ -96,11 +98,18 @@ button:active {
 section {
   border: 1px solid #1b83e2;
   border-radius: 4px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .containerTwo {
-  text-align: center;
+  align-items: center;
+  flex-direction: column;
   padding: 15px;
+  display: flex;
+  gap: 2px;
 }
 
 .name {
@@ -113,7 +122,5 @@ section {
   font-weight: bold;
 }
 .arrowImage {
-  margin: 15px auto;
-  display: block;
   margin-top: 30px;
 }
